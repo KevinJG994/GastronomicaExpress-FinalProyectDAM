@@ -1,0 +1,96 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    background-image: url('../Imagenes/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  
+  /* -- Header -- */
+  #gastro {
+    max-width: 100px;
+  }
+  .nav-item{
+      color:whitesmoke;
+      font-size: x-large;
+  }
+  
+  .navbar-toggler:hover {
+    border: solid 2px whitesmoke;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon{
+      background-color:whitesmoke;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-left: 80px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-item .nav-link.active {
+    color: #38B6FF;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color:  #38B6FF;
+  }
+  
+  #login {
+    color:#FFFFFF;
+  }
+  
+  #cesta {
+    color:#FFFFFF;
+  }
+
+
+  /* -- Submenu --*/
+
+  .carrito-checkbox {
+    display: none;
+  }
+  
+  .carrito-checkbox:checked ~ #carrito {
+    display: block;
+  }
+  
+  .carrito-label {
+    cursor: pointer;
+  }
+
+  @media (max-width: 1000px) {
+    .submenu {
+      display: none; 
+    }
+    #gastro {
+      max-width: 55px;
+    }
+  }
+
+  /* -- Botones --*/
+.btn {
+    margin-top: 30px;
+  }
+  
+  /* -- Separador -- */
+  .hr-blurry {
+    border: solid 4px  #333;
+    margin: 55px;
+  }
+
+  /* -- Footer -- */
+
+.redes-sociales ul li {
+    margin-right: 10px; 
+    display: inline-flex;
+    text-align: center;
+   
+  }
+  .redes-sociales ul li a {
+    color:white;
+    margin: 15px;
+  } 
+  

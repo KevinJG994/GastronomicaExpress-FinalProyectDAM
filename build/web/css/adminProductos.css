@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.custom-form {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.custom-table {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.center-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.custom-table table {
+    width: 100%;
+}
+
+.table-wrapper {
+    max-height: 300px; 
+    overflow-y: auto;
+}
+

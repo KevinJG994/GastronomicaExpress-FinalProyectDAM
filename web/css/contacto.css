@@ -1,0 +1,86 @@
+.container{
+  padding: 20px;
+  border: solid 3px #333;
+  border-radius: 25px;
+  background-color: #38B6FF; 
+  box-shadow: 0 0 20px #333;
+  margin: 5%;
+}
+
+.container-izquierda{
+  width: 80%;
+  margin-right: 450px;
+}
+
+#informacion {
+  padding: 20px;
+  text-align: center;
+}
+
+#informacion p {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#informacion h3 {
+  color: #fff; 
+  margin-bottom: 25px;
+}
+
+#informacion hr {
+  margin: 20px;
+}
+  
+.container-derecha{
+ margin: 50px;
+}
+
+.container-derecha h3{
+  color: #fff; 
+  margin-bottom: 25px;
+  text-align: center;
+}
+  
+
+.vertical-separator {
+  border-right: 5px solid #333;
+}
+
+/* Asegura que el mapa se ajuste al contenedor */
+#mapa iframe {
+  width: 100%;
+  height: 50vh;
+}
+
+
+#mapa {
+  border: solid 3px #333;
+  align-items: center;
+}
+
+#mapa:hover {
+  box-shadow: 0 0 20px #333;
+}
+
+
+@media (max-width: 990px) {
+  .container-izquierda{
+    width: 100%;
+  }
+ .container {
+  margin: 15%;
+ }
+
+ .container-derecha{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+
+ }
+
+ #mapa iframe {
+  width: 300px;
+  max-height: 80vh;
+}
+}
